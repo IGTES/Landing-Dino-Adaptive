@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.color {
+    display: flex;
+}
+.navColor {
+    background-color: white;
+    height: 942px;
+    width: 20%;
+}
+
+.mainColor {
+    background-color: #FFEA2F;
+    height: 942px;
+    width: 80%;
+}
+
+.logo {
+    margin-left: 86px;
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    font-family: 'Akrobat';
+    width: 643px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    word-spacing: 20px;
+    margin-left: auto;
+}
+.inner-menu {
+    font-size: 20px;
+    line-height: 25px;
+}
+.inner-menu > li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+.inner-menu a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+.inner-menu a:hover {
+    color: #FE0002;
+}
+.inner-menu a:active {
+    color: #FE0002;
+}
+.btnRed1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+.btnRed {
+    width: 120px;
+    height: 120px;
+    color: white;
+    background-color: #CE0002;
+    border: none;
+    cursor: pointer;
+}
+.btnRed:hover {
+    background-color: #FE0002;
+}
+
+/*MAIN*/
+.mainContainer_Upper {
+    display: flex;
+}
+.mainText1 {
+    font-family: 'Zona Pro';
+    width: 726px;
+    height: 255px;
+    margin-top: 206px;
+    font-size: 35px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 88px;
+    position: relative;
+    z-index: 5;
+}
+.mainImg {
+    margin-left: 550px;
+    width: 785.95px; 
+    height: 733.05px;
+}
+.dino {
+    width: 600px;
+    height: 600px;
+}
+
+.mainContainer_Down {
+    display: flex;
+    align-items: center;
+    text-align: inherit;
+    position: relative;
+    z-index: 5;
+}
+.icons {
+    margin-left: 92px;
+}
+.mainText2 {
+    width: 459px;
+    height: 90px;
+    margin-left: 150px;
+}
+.btnRed {
+    margin-left: 125px;
+}
+.btnRed2 {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: inherit;
+    padding: 5px;
+}
+
+/*FOOTER*/
+.footerSection {
+    background-color: #EFEFEF;
+    height: 54px;
+    margin-top: 77px;
+}
+.footerIcon {
+    display: flex;
+    color: #C3B6B6;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 18px 0 0;
+}
+.fontToy {
+    color: #C3B6B6;
+}
+.fontToy > a {
+    text-decoration: none;
+}
+
+.menu2{
+    width: 516px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+    word-spacing: 20px;
+    color: #C3B6B6;
+}
+.inner-menu2 > li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+.inner-menu2 a {
+    color: #C3B6B6;
+    list-style-type: none;
+    text-decoration: none;
+}
+.inner-menu2 a:hover {
+    color: #A79898
+}
+
+
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-SemiBold.eot');
+    src: local('Akrobat SemiBold'), local('Akrobat-SemiBold'),
+        url('Akrobat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-SemiBold.woff2') format('woff2'),
+        url('Akrobat-SemiBold.woff') format('woff'),
+        url('Akrobat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Light.eot');
+    src: local('Akrobat Light'), local('Akrobat-Light'),
+        url('Akrobat-Light.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-Light.woff2') format('woff2'),
+        url('Akrobat-Light.woff') format('woff'),
+        url('Akrobat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Regular.eot');
+    src: local('Akrobat Regular'), local('Akrobat-Regular'),
+        url('Akrobat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-Regular.woff2') format('woff2'),
+        url('Akrobat-Regular.woff') format('woff'),
+        url('Akrobat-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-ExtraLight.eot');
+    src: local('Akrobat ExtraLight'), local('Akrobat-ExtraLight'),
+        url('Akrobat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-ExtraLight.woff2') format('woff2'),
+        url('Akrobat-ExtraLight.woff') format('woff'),
+        url('Akrobat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-SemiBold.eot');
+    src: local('Akrobat SemiBold'), local('Akrobat-SemiBold'),
+        url('Akrobat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-SemiBold.woff2') format('woff2'),
+        url('Akrobat-SemiBold.woff') format('woff'),
+        url('Akrobat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Thin.eot');
+    src: local('Akrobat Thin'), local('Akrobat-Thin'),
+        url('Akrobat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-Thin.woff2') format('woff2'),
+        url('Akrobat-Thin.woff') format('woff'),
+        url('Akrobat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Bold.eot');
+    src: local('Akrobat Bold'), local('Akrobat-Bold'),
+        url('Akrobat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-Bold.woff2') format('woff2'),
+        url('Akrobat-Bold.woff') format('woff'),
+        url('Akrobat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-Black.eot');
+    src: local('Akrobat Black'), local('Akrobat-Black'),
+        url('Akrobat-Black.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-Black.woff2') format('woff2'),
+        url('Akrobat-Black.woff') format('woff'),
+        url('Akrobat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('Akrobat-ExtraBold.eot');
+    src: local('Akrobat ExtraBold'), local('Akrobat-ExtraBold'),
+        url('Akrobat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Akrobat-ExtraBold.woff2') format('woff2'),
+        url('Akrobat-ExtraBold.woff') format('woff'),
+        url('Akrobat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: local('Zona Pro ExtraBold'), local('Zona-Pro-ExtraBold'),
+        url('ZonaPro-ExtraBold.woff2') format('woff2'),
+        url('ZonaPro-ExtraBold.woff') format('woff'),
+        url('ZonaPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
